@@ -1,17 +1,35 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "oh-proxy",
+  "description": "> Project description",
   "author": "",
-  "license": "",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "build": "webpack -d --watch",
+    "start": "nodemon server/index.js"
   },
   "dependencies": {
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-iroh/oh-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/team-iroh/oh-proxy/issues"
+  },
+  "homepage": "https://github.com/team-iroh/oh-proxy#readme"
 }
