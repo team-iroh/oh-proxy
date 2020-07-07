@@ -5,15 +5,14 @@
 <head>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <div id = "navbar"></div>
+<body> <div id = "navbar"></div>
   <div id= "banner"></div>
-  <div id="tab-bar"></div>
-    <div class="flex-container">
-      <div class = "left" id = "campaign"></div>
-      <div class = "left" id = "update"></div>
-      <div class = "right" id = "rewards"></div>
-      <div class = "right" id = "modal-root"></div>
+  <div class = "sticky" id="tab-bar"></div>
+    <div class="grid-container">
+      <div class = "grid-item grid-item-1" id = "campaign"></div>
+      <div class = "grid-item grid-item-1 hide leftPadding" id = "update"></div>
+      <div class = "grid-item grid-item-2" id = "rewards"></div>
+      <div class = "grid-item grid-item-2" id = "modal-root"></div>
   </div>
   <script src = "http://localhost:3001/main.js"></script>
   <script src = "http://localhost:3002/bundle.js"></script>
@@ -22,3 +21,4 @@
   <script src = "http://localhost:3005/bundle.js"></script>
   <script src = "http://localhost:3006/bundle.js"></script>
 </body>
+

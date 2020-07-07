@@ -5,3 +5,32 @@
   flex: 640px 25em;
 }
 
+.grid-container {
+  /* display: grid;
+  grid-template-columns: 2fr 1fr;
+  border: 1px solid white; */
+}
+
+.grid-item{
+  float:left;
+  /* border: 1px solid white;
+  position:relative;
+  float:right; */
+}
+
+.grid-item-2{
+  width:400px;
+  float:right;
+}
+
+.hide{
+  display: none;
+}
+
+.right{
+  float: right;
+}
+
+.leftPadding{
+  padding-left: 200px;
+}
